@@ -1,0 +1,284 @@
+/******************
+**** CONTACT ******
+******************/
+
+.navigation ul li:nth-child(5) a {
+    color: var(--tertiary-color);
+}
+
+.navigation ul li:first-child a {
+    color: var(--secondary-color);
+}
+
+
+.no_style{
+    font-family: "Monserrat", sans-serif;
+    color:black;
+}
+
+section.contact{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    grid-template-columns: 1fr 1fr;
+    gap:100px;
+    row-gap: 100px;
+    margin-bottom: 50px;
+}
+
+section.contact section{
+    grid-column: 1;
+}
+
+section.contact aside{
+    grid-column: 2;
+}
+
+/*****************************
+Mise en page de la section text
+*****************************/
+
+section.contact section p{
+    margin-bottom: 30px;
+}
+
+/*****************************
+Mise en page du formulaire
+*****************************/
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 10fr 1fr;
+    gap:50px; 
+}
+
+form label{
+    grid-column: 1;
+    text-align: right;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+
+form input, form textarea{
+    grid-column: 2;
+    border-color:var(--tertiary-color) ;
+    border-style: solid;
+    width:50%;
+    min-width: 200px;
+    height:auto;
+    font-family: "EBGaramond", serif;
+    font-size: 1.1em;
+}
+
+form input.submit{
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    text-transform: capitalize;
+    width: 100px;
+}
+
+form textarea{
+    width: 100%;
+    resize: none;
+}
+
+.label_message{
+    align-self: baseline;
+}
+
+/*****************************
+Mise en page de l'aside
+*****************************/
+
+iframe{
+    width: 100%;
+    height: 400px;
+}
+
+aside div.contact{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap:40px;
+}
+
+aside div.contact img{
+    justify-self: end;
+    align-self: center;
+    grid-column: 1;
+}
+
+aside div.contact p, aside div.contact a{
+    align-self: center;
+    grid-column: 2;
+}
+
+
+
+
+/*****************************
+Mise en page "Cette semaine..."
+*****************************/
+
+/*A noter : réutiliser convenait avant d'essayer de faire du responsive : en responsive, les deux sections ne se comportent pas de la même façon
+Il aurait été possible de garder la classe .films sur cette section et l'adapter/corriger pour la partie cette semaine
+Mais cela semble être bizarre d'utiliser une classe pour annuler/changer une autre spécifiquement en responsive
+Est-ce que cela aurait été une bonne pratique ? */
+
+.decouvrir .cette_semaine{
+    display: grid;
+    gap:30px;
+    grid-template-columns: 1fr 2fr 1fr;
+    background-color: var(--tertiary-color);
+}
+
+.cette_semaine h2{
+    color:var(--primary-color)
+}
+
+div.description_centrale{
+    max-width:600px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.cette_semaine p{
+    width: 70%;
+}
+
+.cette_semaine a{
+    color:var(--primary-color);
+    text-transform: uppercase;
+}
+
+h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 3em;
+    line-height: 2.5em;
+}
+
+.image_multiple{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:30px;
+    margin:50px 0px 50px 100px;
+}
+
+@media only screen and (max-width:1350px) {
+    /*Certains éléments de présentations commencent à être un peu malheureux en dessous de 1350px de largeur, on va donc les rendre un peu plus responsives
+    On va modifier la section contact : la largeur, mais aussi la hauteur de certains éléments pour un affichage ok sur tablette ou petit écran */
+    
+    section.contact{
+        width: 95%;
+        margin-top: 100px;
+        gap:50px;
+    }
+
+    form{
+        grid-template-rows: 1fr 1fr 1fr 7fr 1fr; 
+    }
+
+    form input, form textarea{
+        width:50%;
+        min-width: 150px;
+        font-size: 1em;
+    }
+    
+    iframe{
+        height: auto;
+        min-height: 200px ;
+    }
+}
+
+@media only screen and (max-width:800px) {
+    /*Au format téléphone, on va juste avoir besoin de modifier ce qui est spécifique à la page contact */
+
+    /*********************************************************
+    Mise en page de la partie contact, avec formulaire + aside
+    **********************************************************/
+    
+    section.contact{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        width: auto;
+        margin: 40px 20px 40px 20px;
+    } 
+
+    section.contact .formulaire{
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    section.contact aside{
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    iframe{
+        height: auto;
+        min-height:200px;
+        width: 100%;
+        justify-self: center;
+    }
+
+    /*****************************
+    Mise en page "Cette semaine..."
+    *****************************/
+
+    .decouvrir .cette_semaine{
+        grid-template-columns: 1fr;
+        grid-template-rows: 5fr 3fr 5fr;
+        column-gap: 0px;
+        padding-bottom: 50px;
+    }
+
+    div.description_centrale{
+        grid-row: 2;
+        margin: 0px 20px 40px 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .decouvrir .cette_semaine:first-child img{
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .decouvrir .cette_semaine:nth-child(3) img{
+        grid-column: 2;
+        grid-row: 1;
+    }
+
+    .cette_semaine p{
+        width: 100%;
+    }    
+
+    .cette_semaine .image_etroite{
+        grid-row:1;
+    }
+
+    h3{
+        font-family: "Montserrat", sans-serif;
+        font-size: 2em;
+        line-height: 2em;
+    }
+
+    .image_multiple{
+        grid-row:3;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap:30px;
+        margin:0px 10px 10px 10px;
+    }
+
+}
