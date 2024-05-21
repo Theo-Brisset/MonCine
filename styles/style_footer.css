@@ -1,0 +1,82 @@
+/**********************
+****** FOOTER **********
+**********************/
+
+footer{
+    background-color: var(--secondary-color);
+}
+
+footer a, footer h2, footer p{
+    color:var(--primary-color);
+}
+
+footer p, .menusecondaire a{
+    text-transform: uppercase;
+}
+/*On fait d'abord l'espace avec du contenu utile (plan du site, adresse de contact et réseaux sociaux */
+
+div.contenu_footer{
+    display: flex;
+    width:80%;
+    margin:auto;
+    justify-content: space-around;
+    padding-top:100px;
+    height:500px;
+}
+
+.menusecondaire ul{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menusecondaire ul li a:hover{
+    color:var(--tertiary-color);
+}
+
+footer .logofooter{
+    margin: auto;
+    margin-top:30px;
+}
+
+footer .logofooter img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.coordonnees{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.reseaux ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Ici on définit la bannière de fin */
+.bandeau_pied{
+    width: 100%;
+    height:150px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.bandeau_pied img{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    top:-250px;
+}
+
+.copy{
+    z-index: 10;
+    margin-right: 100px;
+}

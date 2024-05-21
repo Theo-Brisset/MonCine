@@ -1,0 +1,132 @@
+/****************************
+******* HEADER **************
+****************************/
+
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/rideaux.png'); /*Comme il s'agit d'une image purement décorative (pas porteuse d'information), pas besoin de alt et la mettre en fond suffit selon moi*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header div.navigation{
+    position: absolute;
+    top:110px;
+    width: 100%;
+    display: flex;
+    flex-flow: flex-end;
+    justify-content: space-between;
+    z-index: 10;
+    background-color: var(--primary-color);
+    height: 200px;
+}
+
+header div.navigation nav{
+    margin-right:50px;
+}
+header div.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px 0px 0px;
+    width: 100%;
+    line-height: 200px;
+    font-family: "Rubik Dirt", sans-serif;
+    font-size: 2em;
+    gap:30px;
+}
+
+header .navigation img{
+    margin: 50px 0px 50px 15%;
+    
+}
+
+.navigation ul li:first-child a {
+    color: var(--tertiary-color);
+}
+
+.navigation ul li a:hover{
+    color:var(--special-color)
+}
+
+/*Carrousel dans le header, on utilise une boucle de fade-in qui joue avec l'opacité de chaque slide selon un rythme défini*/
+
+.slider{
+    width:100%;
+    height:745px;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    animation: fadeIn linear infinite;
+}
+
+.slider img{
+    width: 100%;
+    min-height: 745px;
+    grid-column: 1/8;
+    grid-row: 1/4;
+    object-fit: cover;
+}
+
+.slide {
+    width: 100%;
+    height: auto; 
+    grid-column: 1/6;
+    grid-row: 1/4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    opacity: 0; 
+    transition: opacity 1s ease;
+}
+
+.slide.active {
+    opacity: 1; 
+    z-index: 1;
+
+}
+
+.slide:nth-child(1) { animation: fadeIn 0s 0s ease forwards; }
+.slide:nth-child(2) { animation: fadeIn 2s 4s ease forwards; }
+.slide:nth-child(3) { animation: fadeIn 2s 8s ease forwards; }
+.slide:nth-child(4) { animation: fadeIn 2s 12s ease forwards; }
+.slide:nth-child(5) { animation: fadeIn 2s 16s ease forwards; }
+.slide:nth-child(6) { animation: fadeIn 2s 20s ease forwards; }
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/*Le texte + logo sur le carrousel */
+
+.commentaire{
+    font-size: 2.5em;
+    line-height: 1.4em;
+    color:var(--primary-color);
+}
+
+.commentaire_gauche{
+   grid-column: 2 / 4;
+   grid-row: 3;
+}
+
+.commentaire_droite{
+    grid-column: 5 / 7;
+    grid-row: 3;
+    text-align: right;
+}
+
+.long{
+    grid-column: 4 / 7;
+    grid-row:2;
+    align-self: center;
+}
+
+.slide .logo_slider{
+    grid-column: 2;
+    grid-row: 2;
+    min-height: auto;
+}
