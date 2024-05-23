@@ -1,0 +1,64 @@
+section.detail-film{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    margin: 50px;
+}
+
+section.detail-film img{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+
+section.detail-film div.description-film{
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+section.detail-film div.vignettes{
+    grid-column: 1 / 4;
+    grid-row: 2;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+section.detail-film div.vignettes img{
+    width: 100%;
+    
+}
+
+section.detail-film div.commentaire{
+    grid-column: 1;
+    grid-row: 3;
+}
+
+div.commentaire .exergue{
+    
+    color:var(--tertiary-color);
+    text-align: center;
+}
+
+div.commentaire .note{
+    margin-top: 30px;
+    font-family: "Rubik Dirt", sans-serif;
+    color:var(--special-color);
+    text-align: center;
+    font-size: 2em;
+}
+
+section.detail-film div.resume-avis{
+    grid-column: 2 / 4;
+    grid-row:  3;
+    
+}
+
+div.resume-avis div.resume, div.resume-avis div.avis{
+    column-count: 2;
+    column-gap: 50px;
+}
+
+div.resume-avis div.resume{
+    margin-bottom:50px;
+}

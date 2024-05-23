@@ -13,11 +13,11 @@
                 <p>Chaque numéro présente deux films sous la forme de feuilletons, adaptés par des spécialistes comme Maurice Bessy ou Fabrice Delphi, un film en image sur une double page, des échos, une présentation des nouveaux films, et parfois un entretien avec un auteur ou un réalisateur, un article sur un aspect technique ou sur un métir du cinéma.</p>
                 <p><span>MonCiné</span> défend le cinéma français et populaire.</p>
                 <div class="note" aria-label="Un cinéma 4 étoiles !">
-                    <img src="assets/etoile-orange.png" alt="">
-                    <img src="assets/etoile-orange.png" alt="">
-                    <img src="assets/etoile-orange.png" alt="">
-                    <img src="assets/etoile-orange.png" alt="">
-                    <img src="assets/etoile-grise.png" alt="">
+                    <img src="/MonCine/assets/etoile-orange.png" alt="">
+                    <img src="/MonCine/assets/etoile-orange.png" alt="">
+                    <img src="/MonCine/assets/etoile-orange.png" alt="">
+                    <img src="/MonCine/assets/etoile-orange.png" alt="">
+                    <img src="/MonCine/assets/etoile-grise.png" alt="">
                 </div>
                 <p class="exergue">&#171; Le cinéma ressemble à un musée, c'est magnifique et l'on s'y sent bien ! &#187;</p>
             </section>
@@ -25,9 +25,9 @@
                 <img src="img/affiche-moncine.png" alt="Sur l'affiche du 3 décembre 1925 de MonCiné, l'actrice Choura Miléna était à l'honneur">
             </aside>
             <aside class="visuelSalle">
-                <img src="img/scene.png" alt="Le cinéma MonCiné dispose d'une scène de théâtre">
-                <img src="img/sieges.png" alt="Les sièges de la salle principale sont d'époque, ils datent de 1920">
-                <img src="img/projection.png" alt="L'écran de la salle est assez grand, 5m de large et 2,5m de hauteur">
+                <img src="/MonCine/img/scene.png" alt="Le cinéma MonCiné dispose d'une scène de théâtre">
+                <img src="/MonCine/img/sieges.png" alt="Les sièges de la salle principale sont d'époque, ils datent de 1920">
+                <img src="/MonCine/img/projection.png" alt="L'écran de la salle est assez grand, 5m de large et 2,5m de hauteur">
             </aside>
             <section class="explicationCinema">
                 <h3>Un cinéma de quartier</h3>
