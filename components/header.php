@@ -22,7 +22,7 @@
             <ul>
                 <li><a href="not-index.php">Accueil</a></li>
                 <li><a href="a-propos.php">A propos</a></li>
-                <li><a href="#">Films</a></li>
+                <li><a href="films.php">Films</a></li>
                 <li><a href="#">Séries</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
