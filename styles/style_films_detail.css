@@ -14,6 +14,42 @@ section.detail-film img{
 section.detail-film div.description-film{
     grid-column: 2 / 4;
     grid-row: 1;
+    display:  grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:30px;
+}
+
+div.description-film h1{
+    grid-column: 1 / 3;
+    grid-row:1;
+}
+
+div.description-film .note{
+    grid-column: 3;
+    grid-row:1;
+    justify-self: end;
+}
+
+div.description-film .info-film{
+    grid-column: 1 / 3;
+    grid-row: 2;
+}
+
+div.description-film .info-film p:first-child, div.description-film .info-film p:nth-child(2){
+    color:var(--tertiary-color)
+}
+
+div.description-film .synopsis{
+    grid-column: 1 / 4;
+    grid-row: 3;
+}
+
+div.description-film .horaire{
+    grid-column: 1 / 4;
+    grid-row: 4;
+    display:flex;
+    column-gap: 30px;
+    font-weight: 600;
 }
 
 section.detail-film div.vignettes{
@@ -62,3 +98,4 @@ div.resume-avis div.resume, div.resume-avis div.avis{
 div.resume-avis div.resume{
     margin-bottom:50px;
 }
+

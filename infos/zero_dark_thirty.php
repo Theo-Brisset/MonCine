@@ -14,13 +14,11 @@
                 </div>
                 <div class="info-film">
                     <p>Film 2h27 - 2012</p>
-                    <p>Drama History Thriller</p>
-                </div>
-                <div class="realisation-acteur-film">
+                    <p>Drama History Thriller</p><br>
                     <p>Réalisé par Kathryn Bigelow</p>
                     <p>Avec <b>Jessica Chastain</b>, <b>Joel Edgerton</b>, <b>Chris Pratt</b></p>
                 </div>
-                <div>
+                <div class="synopsis">
                     <p>Chronique de la décennie de traque du chef terroriste d'Al-Qaïda, Oussama ben Laden,  après les attentats de septembre 2001, et de sa mort aux mains de l'équipe 6 des Navy S.E.A.L.s en mai 2011.</p>
                 </div>
                 <div class="horaire">
