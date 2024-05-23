@@ -2,7 +2,7 @@
         include("components/header.php");
     ?>
     <main>
-        <section>
+        <section class="films">
             <h1>Les films du mois</h1>
             <div class="presentation-liste-films">
                 <p><span>MonCiné</span> propose un nouveau film toutes les semaines. Chaque film est projeté en version française sous-titrée ainsi qu'en version originale, 1 fois par semaine.</p>

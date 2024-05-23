@@ -1,0 +1,35 @@
+section.films{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 50px 50px 50px;
+}
+
+section.films div.presentation-liste-films{
+    margin: 50px 0px 50px 0px;
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    column-gap: 50px;
+    align-items: center;
+}
+
+section.films div.liste-films{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:50px;
+}
+
+section.films div.liste-films img{
+    width: 100%;
+}
+
+div.element-liste-films p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+section.films p{
+    width: 100%;
+}

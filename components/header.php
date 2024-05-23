@@ -12,6 +12,7 @@
         <link href="/MonCine/styles/style.css" rel="stylesheet">
         <link href="/MonCine/styles/style_contact.css" rel="stylesheet">
         <link href="/MonCine/styles/style_a-propos.css" rel="stylesheet">
+        <link href="/MonCine/styles/style_films.css" rel="stylesheet">
         <link href="/MonCine/styles/style_responsive_1350.css" rel="stylesheet">
         <link href="/MonCine/styles/style_responsive_800.css" rel="stylesheet">
     </head>
