@@ -1,6 +1,6 @@
 <aside class="vendredi">
     <div class="image_large">
-        <img src="img/serie-vendredi.png" alt="Captain">
+        <img src="/MonCine/img/serie-vendredi.png" alt="Captain">
     </div>
     <div class="description_droite">
         <h2>La série <br>du vendredi</h2>

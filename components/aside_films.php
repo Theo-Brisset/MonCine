@@ -1,6 +1,6 @@
 <aside class="films">
     <div class="image_etroite gauche">
-        <img src="img/take-shelter.png" alt="Affiche du film Take Shelter">
+        <img src="/MonCine/img/take-shelter.png" alt="Affiche du film Take Shelter">
     </div>
     <div class="description_centrale">
         <h2>Notre sélection <br>de <span>films</span></h2>
@@ -8,6 +8,6 @@
         <a href="#">Voir tous les films</a>
     </div>
     <div class="image_etroite droite">
-        <img src="img/insidious.png" alt="Affiche du film Insidious">
+        <img src="/MonCine/img/insidious.png" alt="Affiche du film Insidious">
     </div>
 </aside>
