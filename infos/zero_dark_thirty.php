@@ -5,7 +5,7 @@
         <section class="detail-film">
             <div class="description-film">
                 <h1>Zero Dark Thirty</h1>
-                <div class="note" aria-label="Un cinéma 4 étoiles !">
+                <div class="note" aria-label="Un film 4 étoiles !">
                     <img src="/MonCine/assets/etoile-orange.png" alt="">
                     <img src="/MonCine/assets/etoile-orange.png" alt="">
                     <img src="/MonCine/assets/etoile-orange.png" alt="">

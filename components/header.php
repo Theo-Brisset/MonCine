@@ -26,7 +26,7 @@
                 <li><a href="/MonCine/index.php">Accueil</a></li>
                 <li><a href="/MonCine/a-propos.php">A propos</a></li>
                 <li><a href="/MonCine/films.php">Films</a></li>
-                <li><a href="#">Séries</a></li>
+                <li><a href="/MonCine/series.php">Séries</a></li>
                 <li><a href="/MonCine/contact.php">Contact</a></li>
             </ul>
         </nav>

@@ -3,10 +3,10 @@
     ?>
     <main>
         <section class="films">
-            <h1>Les films du mois</h1>
+            <h1>Les séries du mois</h1>
             <div class="presentation-liste-films">
                 <p><span>MonCiné</span> propose un nouveau film toutes les semaines. Chaque film est projeté en version française sous-titrée ainsi qu'en version originale, 1 fois par semaine.</p>
-                <p>Le film reste disponible durant 4 semaines. Pour la description ainsi que les horaires, cliquez sur le film de votre choix.
+                <p>Le film reste disponible durant 4 semaines. Pour la description ainsi que les horaires, cliquez sur le film de votre choix.</p>
             </div>
             <div class="liste-films">
                 <div class="element-liste-films">
@@ -22,7 +22,7 @@
                     </a>
                 </div>
                 <div class="element-liste-films">
-                    <a href="infos/zero_dark_thirty.php" class="lien-film">
+                    <a href="/MonCine/infos/zero_dark_thirty.php" class="lien-film">
                         <img src="/MonCine/img/zero-dark-thirty.png" alt="Aller voir les informations sur le film Zero Dark Thirty">
                         <p>Zero Dark Thirty</p>
                     </a>
