@@ -1,4 +1,4 @@
-<?php include("/MonCine/dbconnect/dbconnect.php"); ?>
+<?php include("dbconnect/dbconnect.php"); ?>
 
 <!DOCTYPE html>
 <html lang="fr">
