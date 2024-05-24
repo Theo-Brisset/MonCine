@@ -10,6 +10,7 @@
                 <img src="img/scene.png" alt="Salle de cinéma vue depuis l'extérieur">
             </div>
             <div class="presentation-texte">
+                <?php $mysqliOk ?>
                 <p>Dans un ancien théâtre, le cinéma <span>MonCiné</span> reprend les codes art-déco du début du siècle, un équipement dernier cri et une programmation inédite !</p>
                 <a href="#">A propos du cinéma...</a>
             </div>

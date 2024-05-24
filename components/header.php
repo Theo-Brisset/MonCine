@@ -1,3 +1,5 @@
+<?php include("/MonCine/dbconnect/dbconnect.php"); ?>
+
 <!DOCTYPE html>
 <html lang="fr">
     <head>
@@ -17,6 +19,7 @@
         <link href="/MonCine/styles/style_responsive_1350.css" rel="stylesheet">
         <link href="/MonCine/styles/style_responsive_800.css" rel="stylesheet">
     </head>
+    
 <body>
 <header>
     <div class="navigation">
