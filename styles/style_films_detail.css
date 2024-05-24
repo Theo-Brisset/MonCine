@@ -5,7 +5,7 @@ section.detail-film{
     margin: 50px;
 }
 
-section.detail-film img{
+section.detail-film .affiche{
     grid-column: 1;
     grid-row: 1;
 }
@@ -52,7 +52,7 @@ div.description-film .horaire{
     font-weight: 600;
 }
 
-section.detail-film div.vignettes{
+section.detail-film .vignettes{
     grid-column: 1 / 4;
     grid-row: 2;
     display: flex;
@@ -60,7 +60,7 @@ section.detail-film div.vignettes{
     column-gap: 20px;
 }
 
-section.detail-film div.vignettes img{
+section.detail-film .vignettes img{
     width: 100%;
     
 }

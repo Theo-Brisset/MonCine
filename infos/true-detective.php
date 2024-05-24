@@ -26,15 +26,17 @@
                     <p>V.O : vendredi 12/01 20h30, lundi 15/01 18h30, mercredi 17/01 14h00</p>
                 </div>
             </div>
-            <img src="/MonCine/img/true-detective.png" alt="Affiche de la série True Detective">
-            <div class="vignettes">
-                <img src="/MonCine/img/true-detective/vignette-1.png" alt="#">
-                <img src="/MonCine/img/true-detective/vignette-2.png" alt="#">
-                <img src="/MonCine/img/true-detective/vignette-3.png" alt="#">
-                <img src="/MonCine/img/true-detective/vignette-4.png" alt="#">
-                <img src="/MonCine/img/true-detective/vignette-5.png" alt="#">
-                <img src="/MonCine/img/true-detective/vignette-6.png" alt="#">
+            <div class="affiche">
+                <img src="/MonCine/img/true-detective.png" alt="Affiche de la série True Detective">
             </div>
+            <ul class="vignettes">
+                <li><img src="/MonCine/img/true-detective/vignette-1.png" alt="#"></li>
+                <li><img src="/MonCine/img/true-detective/vignette-2.png" alt="#"></li>
+                <li><img src="/MonCine/img/true-detective/vignette-3.png" alt="#"></li>
+                <li><img src="/MonCine/img/true-detective/vignette-4.png" alt="#"></li>
+                <li><img src="/MonCine/img/true-detective/vignette-5.png" alt="#"></li>
+                <li><img src="/MonCine/img/true-detective/vignette-6.png" alt="#"></li>
+            </ul> 
             <div class="commentaire">
                 <p class="exergue">&#171; True Detective tape fort, très fort même ! &#187;</p>
                 <p class="note">9/10</p>

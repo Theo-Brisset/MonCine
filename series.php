@@ -3,7 +3,7 @@
     ?>
     <main>
         <section class="films">
-            <h1>Les films du mois</h1>
+            <h1>Les séries du mois</h1>
             <div class="presentation-liste-films">
                 <p><span>MonCiné</span> propose une nouvelle série toutes les semaines. Chaque série est projetée en version française sous-titrée ainsi qu’en version originale, 1 fois par semaine.</p>
                 <p> La série reste disponible durant 4 semaines. Pour la description ainsi que les horaires, cliquez sur La série de votre choix.</p> 
