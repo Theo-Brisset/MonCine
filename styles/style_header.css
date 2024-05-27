@@ -42,9 +42,6 @@ header .navigation img{
     
 }
 
-.navigation ul li:first-child a {
-    color: var(--tertiary-color);
-}
 
 .navigation ul li a:hover{
     color:var(--special-color)

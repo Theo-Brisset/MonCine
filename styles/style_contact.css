@@ -2,14 +2,6 @@
 **** CONTACT ******
 ******************/
 
-.navigation ul li:nth-child(5) a {
-    color: var(--tertiary-color);
-}
-
-.navigation ul li:first-child a {
-    color: var(--secondary-color);
-}
-
 
 .no_style{
     font-family: "Monserrat", sans-serif;
